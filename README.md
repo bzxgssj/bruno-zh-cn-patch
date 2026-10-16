@@ -2,12 +2,50 @@
 
 把 [Bruno](https://www.usebruno.com/) API 客户端的界面汉化成简体中文。
 
+> **适用平台：仅 Windows 10 / 11 64 位（x64）** ｜ **适用版本：仅 Bruno 4.2.1**
+> 没有 macOS / Linux / Windows ARM64 版本。详见下方[平台与版本要求](#平台与版本要求必读)。
+
 > ### ⚠️ 免责声明（请先读这段）
 >
 > - **非官方项目**：本项目由第三方制作，与 Bruno 官方团队（usebruno）**没有任何关联**，未获其授权或背书。
 > - **不涉及授权/付费**：本项目**只替换界面显示的中文文字**，**不修改、不绕过、不规避任何授权校验**，也**不提供任何付费功能**。你的 Bruno 是什么授权状态，打上汉化后依然是什么状态。
 > - **仅适用特定版本**：目前只适配 **Bruno 4.2.1 (Windows x64)**。Bruno 一旦升级，安装包结构变化，安装脚本会因哈希校验不匹配**主动拒绝执行**（不会写坏文件），需要重新适配。
 > - 请自行从[官方网站](https://www.usebruno.com/downloads)下载 Bruno。本项目**不提供** Bruno 的安装程序或二进制文件。
+
+---
+
+## 🖥️ 平台与版本要求（必读）
+
+| 项目 | 要求 |
+|---|---|
+| 操作系统 | **仅 Windows 10 / 11 64 位（x64）** |
+| Bruno 版本 | **仅 4.2.1** |
+| Bruno 安装包 | `bruno_4.2.1_x64_win.exe` 或 `bruno_4.2.1_x64_win.msi` |
+
+**❌ 明确不支持**：
+
+- macOS（`bruno_4.2.1_x64_mac.dmg`、`bruno_4.2.1_arm64_mac.dmg` 等）
+- Linux（`bruno_4.2.1_x86_64_linux.AppImage`、`.deb`、`.rpm` 等）
+- **Windows ARM64**（`bruno_4.2.1_arm64_win.exe` —— 注意文件名是 `arm64` 不是 `x64`）
+- Bruno 的任何其它版本（含 4.2.1 之前和之后的版本）
+
+> 本项目**没有** macOS / Linux / ARM 版本，也不提供。汉化包的安装脚本是
+> Windows 批处理 + PowerShell，补丁清单是针对 **Windows x64 构建产物**计算出来的。
+> 在不受支持的版本上运行，脚本会因 SHA-256 校验不匹配而**主动中止**（不会写坏文件），
+> 但汉化也不会生效。
+
+### 去哪里下载 Bruno 4.2.1
+
+Bruno 请从**官方渠道**获取 —— 本项目不提供、也不再分发 Bruno 的安装程序或二进制：
+
+- 官方下载页：<https://www.usebruno.com/downloads>
+- GitHub Releases（v4.2.1）：<https://github.com/usebruno/bruno/releases/tag/v4.2.1>
+  - Windows x64 安装包：**`bruno_4.2.1_x64_win.exe`**（约 116 MB）
+
+> ⚠️ 下载时务必确认文件名里是 **`x64_win`**。同一版本下还有 `arm64_win`、`x64_mac`、
+> `arm64_mac`、`x86_64_linux` 等，本汉化包**都不适用**。
+>
+> ⚠️ Bruno 更新很快，**一旦升级到 4.2.1 以外的版本，本汉化包即失效**，需要重新适配。
 
 ---
 
