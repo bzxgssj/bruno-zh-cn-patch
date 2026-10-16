@@ -15,7 +15,7 @@
 
 汉化包在 **Releases** 页面：**[→ 前往下载最新版](../../releases/latest)**
 
-文件名：`Bruno汉化包_4.2.1_zh-CN.zip`（约 240 KB，无需安装任何依赖）
+文件名：`bruno-zh-cn-4.2.1.zip`（约 240 KB，无需安装任何依赖）
 
 ---
 
@@ -32,7 +32,7 @@
 ## 安装
 
 1. **完全退出 Bruno**（注意右下角托盘图标，右键退出）。
-2. 从 [Releases](../../releases/latest) 下载 `Bruno汉化包_4.2.1_zh-CN.zip` 并解压。
+2. 从 [Releases](../../releases/latest) 下载 `bruno-zh-cn-4.2.1.zip` 并解压。
 3. 双击 **`安装汉化.bat`**。
 
 脚本会自动找到 Bruno 安装目录：
