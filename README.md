@@ -206,7 +206,13 @@ Bruno汉化包_4.2.1_zh-CN/
 | 项目 | 版本 |
 |---|---|
 | 工具 | **DeepSeek Harness**（DSH）`0.2.0-rc.2` |
-| 模型 | **DeepSeek V4 Flash** —— 模型标识 `deepseek-v4-flash` |
+| 模型 | **DeepSeek-V4.1-Flash** |
+| 会话记录的模型标识 | `deepseek-v4-flash`（官方现行模型名为 `deepseek-flash`） |
+
+> 说明：本次生成时 DSH 会话记录写入的模型标识是 `deepseek-v4-flash`。
+> 按 [DeepSeek 官方定价文档](https://api-docs.deepseek.com/zh-cn/quick_start/pricing)，
+> 该标识属于**旧模型名**，请求实际由 **DeepSeek-V4.1-Flash** 提供服务；
+> 官方现行的模型名为 `deepseek-flash`。
 
 工作方式简述：代理在被汉化的应用上启动调试端口，直接读取渲染进程的真实 DOM 来提取与校验
 界面文案（而不是靠截图猜测），并把补丁做成**等长字节改写**以保证可逐字节还原。
